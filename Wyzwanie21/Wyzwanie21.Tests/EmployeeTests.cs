@@ -6,8 +6,8 @@ namespace Wyzwanie21.Tests
         public void ScoresOfEmployees()
         {
             // Arrange
-            var employee_1 = new Employee("Radek", "Nowak", 35);
-            var employee_2 = new Employee("Dagara", "Str¹k", 22);
+            var employee_1 = new Employee("Radek");
+            var employee_2 = new Employee("Dagara");
            
             employee_1.AddScore(5);
             employee_1.AddScore(6);

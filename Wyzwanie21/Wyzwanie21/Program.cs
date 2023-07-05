@@ -1,8 +1,8 @@
 ﻿using Wyzwanie21;
 
-Employee employee1 = new Employee("Jan", "Nowak", 25);
-Employee employee2 = new Employee("Krzysztof", "Kowalski", 30);
-Employee employee3 = new Employee("Mateusz", "Baran", 35);
+Employee employee1 = new Employee("Jan");
+Employee employee2 = new Employee("Krzysztof");
+Employee employee3 = new Employee("Mateusz");
 
 
 employee1.AddScore(1);
@@ -40,6 +40,4 @@ foreach (var employee in employess)
     }
 };
 Console.WriteLine("Dane pracownika z najwyższą liczbą punktów: ");
-Console.WriteLine(employeeWithMaxResult.Name + " " + employeeWithMaxResult.Surname);
-Console.WriteLine("Wiek " + employeeWithMaxResult.Age);
 Console.WriteLine(employeeWithMaxResult.Result);
